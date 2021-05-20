@@ -11,9 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.red
+        setupAppearance()
     }
 
-
+    private func setupAppearance() {
+        self.view.backgroundColor = UIColor.link
+    }
 }
 
